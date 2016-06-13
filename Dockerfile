@@ -1,4 +1,4 @@
-FROM php:5.6-fpm
+FROM caicloud/php:5.6-fpm
 
 RUN mkdir -p /dvwa && mkdir -p /dvwa/log
 
